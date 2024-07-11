@@ -86,6 +86,7 @@ struct UserData: Codable {
     let lastName: String
     let avatar: URL
     
+    //JSON 키와 구조체 프로퍼티 간의 매핑을 위해 CodingKeys 열거형 정의
     //서버데이터의 firstName은 스네이크 형식으로 되어 있기 때문에 Swift에서 쓰는 camelCase형식으로 치환해준다.
     enum CodingKeys: String, CodingKey {
         case id
