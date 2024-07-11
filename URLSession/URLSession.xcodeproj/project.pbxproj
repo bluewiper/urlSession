@@ -16,7 +16,6 @@
 		23E974BD2C3E42B40077D173 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23E974BC2C3E42B40077D173 /* Base */; };
 		23E974C62C3E43CB0077D173 /* PhoneBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E974C42C3E43CB0077D173 /* PhoneBook+CoreDataClass.swift */; };
 		23E974C72C3E43CB0077D173 /* PhoneBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E974C52C3E43CB0077D173 /* PhoneBook+CoreDataProperties.swift */; };
-		23E974CA2C3E844B0077D173 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 23E974C92C3E844B0077D173 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E974CA2C3E844B0077D173 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +93,6 @@
 			);
 			name = URLSession;
 			packageProductDependencies = (
-				23E974C92C3E844B0077D173 /* SnapKit */,
 			);
 			productName = CoreDataPractice;
 			productReference = 23E974AA2C3E42B20077D173 /* URLSession.app */;
@@ -313,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoreDataPractice/Info.plist;
+				INFOPLIST_FILE = URLSession/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -340,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoreDataPractice/Info.plist;
+				INFOPLIST_FILE = URLSession/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,14 +389,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		23E974C92C3E844B0077D173 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 23E974C82C3E844B0077D173 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		23E974B62C3E42B20077D173 /* CoreDataPractice.xcdatamodeld */ = {
